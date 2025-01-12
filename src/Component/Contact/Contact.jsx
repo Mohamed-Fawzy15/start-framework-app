@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <div>
-      <div className="flex container flex-col items-center justify-center h-screen gap-40 ">
+      <div className="flex container flex-col items-center justify-center h-screen gap-10 max-w pt-20 ">
         <div>
           <h1 className="uppercase text-[#2C3E50] text-4xl font-bold ">
             contact section
