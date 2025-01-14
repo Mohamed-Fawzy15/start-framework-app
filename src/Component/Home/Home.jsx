@@ -3,7 +3,7 @@ import img from "../../assets/avataaars.svg";
 export default function Home() {
   return (
     <div className="bg-[#1ABC9C]">
-      <div className="flex container flex-col items-center justify-center h-screen gap-2">
+      <div className="main-container">
         <img src={img} className="w-60 " alt="avater Image" />
         <h1 className="uppercase text-white font-bold text-4xl pt-3">
           start framework

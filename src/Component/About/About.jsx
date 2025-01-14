@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div className="bg-[#1ABC9C]">
-      <div className="flex container flex-col items-center justify-center h-screen gap-2">
+      <div className="main-container">
         <h1 className="uppercase text-4xl font-bold text-white">
           about component
         </h1>

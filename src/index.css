@@ -5,3 +5,15 @@
 .active {
   background-color: #1abc9c;
 }
+
+@layer components {
+  .portfolio-layer {
+    @apply bg-[#1abc9ce6] absolute inset-0 flex justify-center items-center invisible;
+  }
+  .main-container {
+    @apply flex container flex-col items-center justify-center h-screen gap-2;
+  }
+  .input-label {
+    @apply absolute text-[#1abc9c] left-0 top-4 peer-placeholder-shown:top-4 peer-placeholder-shown:text-gray-400 peer-focus:top-[-10px] peer-focus:text-[#1abc9c] transition-all duration-300;
+  }
+}
