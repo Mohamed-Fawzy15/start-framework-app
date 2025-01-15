@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <div>
       <div className="flex container flex-col items-center justify-center h-screen gap-10 max-w pt-20 ">
-        <div>
+        <header>
           <h1 className="uppercase text-[#2C3E50] text-4xl font-bold ">
             contact section
           </h1>
@@ -11,7 +11,7 @@ export default function Contact() {
             <i className="fa-solid fa-star text-[#2C3E50]" />
             <div className="p-0.5 bg-[#2C3E50] w-20"></div>
           </div>
-        </div>
+        </header>
 
         <form className="w-3/5 flex flex-col gap-5">
           <div className="relative">

@@ -85,9 +85,13 @@ export default function Portfilio() {
             closeModle();
           }}
         >
-          <img src={activeImg} className="w-1/3 rounded" alt="" />
+          <img
+            src={activeImg}
+            className="w-5/6 md:w-1/3 rounded"
+            alt="an image"
+          />
           <button
-            className="absolute top-2 right-2 text-white text-2xl bg-black bg-opacity-50 rounded-full p-2"
+            className="absolute top-2 right-2 text-white text-2xl bg-black bg-opacity-50 rounded-full px-2 pb-1 "
             onClick={() => {
               closeModle();
             }}

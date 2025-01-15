@@ -17,7 +17,7 @@ export default function Footer() {
                     href="www.facebook.com"
                     className="border-2 p-1 border-white rounded-full"
                   >
-                    <i className="fa-brands fa-facebook text-base" />
+                    <i className="fa-brands fa-facebook text-base px-0.5" />
                   </a>
                 </li>
                 <li>
@@ -25,7 +25,7 @@ export default function Footer() {
                     href="www.twitter.com"
                     className="border-2 p-1 border-white rounded-full"
                   >
-                    <i className="fa-brands fa-twitter  text-base" />
+                    <i className="fa-brands fa-twitter text-base px-0.5" />
                   </a>
                 </li>
                 <li>
@@ -33,7 +33,7 @@ export default function Footer() {
                     href="www.linkedin.com"
                     className="border-2 p-1 border-white rounded-full"
                   >
-                    <i className="fa-brands fa-linkedin-in  text-base" />
+                    <i className="fa-brands fa-linkedin-in text-base px-0.5" />
                   </a>
                 </li>
                 <li>
@@ -41,7 +41,7 @@ export default function Footer() {
                     href="www.facebook.com"
                     className="border-2 p-1 border-white rounded-full"
                   >
-                    <i className="fa-solid fa-globe  text-base" />
+                    <i className="fa-solid fa-globe text-base px-0.5" />
                   </a>
                 </li>
               </ul>
