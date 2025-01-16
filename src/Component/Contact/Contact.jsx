@@ -1,8 +1,8 @@
 export default function Contact() {
   return (
     <div>
-      <div className="flex container flex-col items-center justify-center h-screen gap-10 max-w pt-20 ">
-        <header>
+      <div className="flex container flex-col items-center justify-center h-screen gap-2 max-w ">
+        <header className="mb-32">
           <h1 className="uppercase text-[#2C3E50] text-4xl font-bold ">
             contact section
           </h1>
